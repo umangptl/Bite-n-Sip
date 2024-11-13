@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">BiteNsip</string>
+
+    <string name="pref_notification_message_value">Hey… It\'s time to drink some water…</string>
+    <string name="add_info_text">Please provide some information to customize the experience for you…!!</string>
+    <string name="str_continue">Continue</string>
+    <string name="enter_your_name_hint">Enter your name</string>
+    <string name="age_hint">Enter your age</string>
+    <string name="weight_hint">Enter your weight in Kg</string>
+    <string name="custom_intake_hint">Enter your custom intake target in ml</string>
+    <string name="workout_hint">Your daily work out time in min/day</string>
+    <string name="wakeup_hint">Your wake up time</string>
+    <string name="sleeping_hint">Your Sleep time</string>
+    <string name="tagline_text">Lets keep you hydrated…</string>
+    <string name="get_started">Get Started</string>
+    <string name="edit_info_text">Edit Your Information</string>
+    <string name="update">Update</string>
+    <string name="notif_setting_header">Notification Settings</string>
+    <string name="notif_messsage_hint">Notification Message</string>
+    <string name="notif_tone_hint">Notification Tone</string>
+    <string name="notif_freq_hint">Notification Frequency</string>
+    <string name="walkthrough_text_one">Looking for a quick recipe? Bite and Sip offers simple meal
+        suggestions based on your preferences. Whether you need a healthy snack or a full meal, we’ve
+        got you covered with easy-to-follow recipes, tailored just for you
+    </string>
+    <string name="walkthough_text_two">Need advice on hydration or what to eat next? Our AI-powered
+        assistant is always ready to chat, offering helpful tips and answering any questions about
+        food and water. Ask away and get personalized suggestions!
+    </string>
+    <string name="walkthrough_text_three">Water is essential to your body’s well-being. Use our water
+        tracker to ensure you are staying hydrated throughout the day, with easy-to-log water intake
+        options and reminders. The more you drink, the better you’ll feel!
+    </string>
+</resources>
