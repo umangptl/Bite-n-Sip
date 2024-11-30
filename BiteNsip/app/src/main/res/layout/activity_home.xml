@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context=".HomeActivity">
 
     <ImageView
@@ -22,7 +23,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/poppins"
         android:gravity="center"
         android:text="BITE AND SIP"
@@ -30,21 +31,21 @@
         android:textColor="@color/black"
         android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="270dp"
+        android:layout_width="231dp"
+        android:layout_height="74dp"
         android:layout_marginTop="25dp"
-        android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_light"
         android:text="Welcome 👋,To your Ultimate Meal and Hydration Companion"
         android:textColor="#424242"
         android:textSize="17sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView1"/>
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
     <TextView
         android:id="@+id/textView5"
@@ -63,7 +64,6 @@
         android:id="@+id/tvIntook"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins"
         android:text="Total"
@@ -88,14 +88,12 @@
 
     <params.com.stepprogressview.StepProgressView
         android:id="@+id/intakeProgress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="304dp"
+        android:layout_height="29dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="10dp"
         android:maxWidth="5dp"
         app:currentProgress="60"
+        app:flow_horizontalAlign="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvIntook"
@@ -110,24 +108,23 @@
         app:totalProgress="130"
         tools:ignore="MissingClass" />
 
-    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+    <TextView
         android:id="@+id/textView4"
-        android:layout_width="270dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="25dp"
+        android:layout_marginTop="4dp"
         android:fontFamily="@font/poppins"
         android:text="Quick Recipes"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="@+id/intakeProgress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/intakeProgress"
-        tools:ignore="UnknownIdInLayout" />
+        />
 
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scrollbars="none"
         app:layout_constraintEnd_toEndOf="parent"
@@ -135,7 +132,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4">
 
         <RelativeLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="135dp"
             android:orientation="vertical"
             android:paddingLeft="20dp"
@@ -250,8 +247,8 @@
         <!-- Title TextView -->
         <TextView
             android:id="@+id/titleText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:fontFamily="@font/poppins"
             android:text="Prompt"
             android:textSize="20sp"
@@ -292,7 +289,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins"
             android:text="What are some tips for staying hydrated throughout the day?"
-            android:textSize="15sp"
+            android:textSize="12sp"
             android:textColor="@color/black"
             android:padding="8dp"
             android:background="@drawable/text_decor_bg"
@@ -304,7 +301,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins"
             android:text="Can you suggest a quick breakfast recipe for busy college mornings?"
-            android:textSize="15sp"
+            android:textSize="12sp"
             android:textColor="@color/black"
             android:padding="8dp"
             android:background="@drawable/text_decor_bg"

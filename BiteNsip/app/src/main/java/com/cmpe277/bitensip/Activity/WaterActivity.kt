@@ -64,6 +64,11 @@ class WaterActivity : AppCompatActivity(){
                     true
                 }
 
+                R.id.nav_gpt -> {
+                    startActivity(Intent(this, GPTActivity::class.java))
+                    true
+                }
+
                 R.id.nav_profile -> {
                     startActivity(Intent(this, ProfileActivity::class.java))
                     true
