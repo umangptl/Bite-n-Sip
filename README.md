@@ -13,11 +13,13 @@ Bite & Sip is a mobile app designed to help users stay hydrated while offering q
 - Backend: Local Storage with SQLite
 - AI Integration: chat assistant feature
 - Notifications: Push notifications for water reminders
-
-<img src="https://github.com/umangptl/Bite-n-Sip/blob/main/screenshots/start.png" width="25%" alt="Main-Page">
-<img src="https://github.com/umangptl/Bite-n-Sip/blob/main/screenshots/home.png" width="25%" alt="Main-Page">
-<img src="https://github.com/umangptl/Bite-n-Sip/blob/main/screenshots/food.png" width="25%" alt="Main-Page">
-<img src="https://github.com/umangptl/Bite-n-Sip/blob/main/screenshots/water.png" width="25%" alt="Main-Page">
-<img src="https://github.com/umangptl/Bite-n-Sip/blob/main/screenshots/recipe.png" width="25%" alt="Main-Page">
-<img src="https://github.com/umangptl/Bite-n-Sip/blob/main/screenshots/chatbot.png" width="25%" alt="Main-Page">
-<img src="https://github.com/umangptl/Bite-n-Sip/blob/main/screenshots/profile:setting.png" width="25%" alt="Main-Page">
+- 
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+  <img src="https://github.com/umangptl/Bite-n-Sip/blob/main/screenshots/start.png" width="25%" alt="Main-Page">
+  <img src="https://github.com/umangptl/Bite-n-Sip/blob/main/screenshots/home.png" width="25%" alt="Main-Page">
+  <img src="https://github.com/umangptl/Bite-n-Sip/blob/main/screenshots/food.png" width="25%" alt="Main-Page">
+  <img src="https://github.com/umangptl/Bite-n-Sip/blob/main/screenshots/water.png" width="25%" alt="Main-Page">
+  <img src="https://github.com/umangptl/Bite-n-Sip/blob/main/screenshots/recipe.png" width="25%" alt="Main-Page">
+  <img src="https://github.com/umangptl/Bite-n-Sip/blob/main/screenshots/chatbot.png" width="25%" alt="Main-Page">
+  <img src="https://github.com/umangptl/Bite-n-Sip/blob/main/screenshots/profile:setting.png" width="25%" alt="Main-Page">
+</div>
